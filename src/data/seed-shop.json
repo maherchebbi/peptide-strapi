@@ -1,0 +1,364 @@
+{
+  "categories": [
+    {
+      "slug": "metabolisme-composition-corporelle",
+      "label": "Métabolisme & composition corporelle",
+      "icon": "scale"
+    },
+    {
+      "slug": "reparation-recuperation",
+      "label": "Réparation & récupération",
+      "icon": "recovery"
+    },
+    {
+      "slug": "sommeil-recuperation",
+      "label": "Sommeil & récupération",
+      "icon": "moon"
+    },
+    {
+      "slug": "longevite-energie",
+      "label": "Longévité & énergie",
+      "icon": "hourglass"
+    },
+    {
+      "slug": "peau-esthetique",
+      "label": "Peau & esthétique",
+      "icon": "droplet"
+    },
+    {
+      "slug": "performance-vitalite",
+      "label": "Performance & vitalité",
+      "icon": "bolt"
+    },
+    {
+      "slug": "anti-inflammatoire-immunite",
+      "label": "Anti-inflammatoire & immunité",
+      "icon": "shield"
+    },
+    {
+      "slug": "sante-sexuelle",
+      "label": "Santé sexuelle",
+      "icon": "heart"
+    },
+    {
+      "slug": "cognition-neuro",
+      "label": "Cognition & neuro",
+      "icon": "brain"
+    }
+  ],
+  "products": [
+    {
+      "slug": "bioglutide-na-931",
+      "name": "Bioglutide (NA-931)",
+      "category": "metabolisme-composition-corporelle",
+      "description": "Composé de recherche associé à la voie du récepteur GLP-1 et décrit comme un multi-agoniste de plusieurs récepteurs métaboliques. La fiche évoque notamment la satiété et la régulation de la glycémie.",
+      "price": 85
+    },
+    {
+      "slug": "brenipatide-ly-3537031",
+      "name": "Brénipatide (LY-3537031)",
+      "category": "metabolisme-composition-corporelle",
+      "description": "Composé expérimental présenté comme co-agoniste des récepteurs GIP et GLP-1, impliqués dans la régulation de l’appétit et de la glycémie. La description souligne sa durée d’action prolongée et son statut de recherche.",
+      "price": 120,
+      "subtitle": "LY-3537031 · Co-agoniste des récepteurs GIP et GLP-1",
+      "status": "Composé expérimental",
+      "intro": "Le brénipatide est un composé expérimental présenté comme co-agoniste des récepteurs GIP et GLP-1, deux voies impliquées dans la régulation de l’appétit et de la glycémie. Les travaux publiés soulignent surtout sa durée d’action prolongée. Les informations de cette fiche sont fournies à titre documentaire et de recherche uniquement.",
+      "purityNote": "La pureté mesurée par HPLC se distingue de la teneur nette en peptide : les sels et contre-ions comptent dans la masse du flacon. Se référer au certificat d’analyse rattaché au lot.",
+      "facts": [
+        { "label": "Famille", "value": "Métabolisme & composition corporelle" },
+        { "label": "Statut", "value": "Expérimental", "note": "Recherche en cours" },
+        { "label": "Forme", "value": "Poudre lyophilisée" },
+        { "label": "Conservation", "value": "2–8 °C", "note": "À l’abri de la lumière" }
+      ],
+      "chemistry": [
+        { "label": "Code de développement", "value": "LY-3537031" },
+        { "label": "Classe", "value": "Co-agoniste GIP / GLP-1, peptide modifié à chaîne latérale acylée" },
+        { "label": "Séquence", "value": "Propriétaire, non divulguée publiquement" },
+        { "label": "Formule moléculaire", "value": "C228H354N46O72" },
+        { "label": "Masse moléculaire", "value": "4891,52 g/mol" },
+        { "label": "N° CAS", "value": "2408921-49-1" }
+      ],
+      "highlights": [
+        {
+          "title": "Double voie incrétine",
+          "text": "Étudié comme co-agoniste GIP et GLP-1, une association de récepteurs liée dans la littérature à la régulation de la glycémie et de l’appétit."
+        },
+        {
+          "title": "Durée d’action prolongée",
+          "text": "Sa structure est décrite comme conçue pour une demi-vie très longue, ce qui le distingue d’autres composés de la même classe."
+        },
+        {
+          "title": "Mécanismes de satiété",
+          "text": "La voie GLP-1 est étudiée pour son rôle sur les centres de la satiété et sur la vidange gastrique."
+        },
+        {
+          "title": "Réponse dépendante du glucose",
+          "text": "La composante GIP / GLP-1 est associée, en recherche, à une sécrétion d’insuline modulée par la glycémie."
+        }
+      ],
+      "mechanism": [
+        { "text": "Activation du récepteur GLP-1 : voie étudiée pour les signaux centraux de satiété et le ralentissement de la vidange gastrique." },
+        { "text": "Activation du récepteur GIP : seconde incrétine, associée à la réponse insulinique dépendante du glucose et au métabolisme lipidique." },
+        { "text": "La co-activation des deux récepteurs est explorée pour une action complémentaire sur le contrôle glycémique et l’appétit." },
+        { "text": "Une modification structurelle du squelette peptidique est décrite pour prolonger l’exposition dans l’organisme." }
+      ],
+      "history": [
+        {
+          "year": "2023",
+          "title": "Développement clinique",
+          "text": "Le composé, développé par Eli Lilly sous le code LY-3537031, entre en développement clinique."
+        },
+        {
+          "year": "En cours",
+          "title": "Programme de recherche",
+          "text": "Des études se poursuivent. À la date de rédaction, aucun résultat consolidé ne permet de conclure sur son profil complet."
+        }
+      ],
+      "handling": [
+        { "text": "Considérer ce composé comme strictement expérimental : réservé à la recherche en laboratoire." },
+        { "text": "Documenter chaque manipulation (date, lot, volume) pour garder un suivi écrit fiable." },
+        { "text": "Respecter les règles d’asepsie et utiliser du matériel stérile à usage unique." },
+        { "text": "Se référer au calculateur de reconstitution pour convertir contenu du flacon et volume de solvant en concentration." }
+      ],
+      "storage": [
+        { "label": "Avant reconstitution", "text": "Poudre lyophilisée au réfrigérateur (2–8 °C), à l’abri de la lumière." },
+        { "label": "Après reconstitution", "text": "Au réfrigérateur (2–8 °C), à l’abri de la lumière, pendant une durée limitée à plusieurs semaines." },
+        { "label": "À éviter", "text": "Ne pas congeler, ne pas agiter vigoureusement, éviter chaleur et lumière directe." }
+      ],
+      "safety": [
+        { "text": "Composé expérimental : son profil de sécurité propre n’est pas établi et les données humaines sont limitées." },
+        { "text": "Aucun usage humain ou animal n’est validé : produit destiné exclusivement à la recherche en laboratoire." },
+        { "text": "Ces informations ne constituent pas un avis médical et ne remplacent pas l’avis d’un professionnel de santé." }
+      ],
+      "references": [
+        { "label": "Études enregistrées sur ClinicalTrials.gov (LY3537031)", "href": "https://clinicaltrials.gov/search?term=LY3537031" },
+        { "label": "Publications sur PubMed (LY3537031)", "href": "https://pubmed.ncbi.nlm.nih.gov/?term=LY3537031" }
+      ]
+    },
+    {
+      "slug": "cagrilintide-am833",
+      "name": "Cagrilintide (AM833)",
+      "category": "metabolisme-composition-corporelle",
+      "description": "Peptide synthétique conçu pour imiter l’action de l’amyline. Il est décrit comme étudié pour les mécanismes de satiété et la régulation de la prise alimentaire.",
+      "price": 75
+    },
+    {
+      "slug": "mots-c",
+      "name": "MOTS-c",
+      "category": "metabolisme-composition-corporelle",
+      "description": "Peptide d’origine mitochondriale présenté comme impliqué dans la signalisation métabolique. Il est associé à des recherches sur le métabolisme énergétique, la voie AMPK et la fonction mitochondriale.",
+      "price": 70,
+      "featured": true
+    },
+    {
+      "slug": "mots-c-10mg-double-chambre",
+      "name": "MOTS-C 10MG (double chambre)",
+      "category": "metabolisme-composition-corporelle",
+      "description": "Version du MOTS-c proposée dans un format à double chambre. Sa description reprend les axes de recherche du MOTS-c : signalisation métabolique, énergie et fonction mitochondriale.",
+      "price": 85
+    },
+    {
+      "slug": "retatrutide",
+      "name": "Rétatrutide",
+      "category": "metabolisme-composition-corporelle",
+      "description": "Composé décrit comme agoniste triple des récepteurs GLP-1, GIP et glucagon. Il est présenté comme étudié pour l’appétit, l’homéostasie énergétique et certains paramètres métaboliques.",
+      "variants": [
+        { "label": "10 mg", "price": 95 },
+        { "label": "20 mg", "price": 170 }
+      ]
+    },
+    {
+      "slug": "semaglutide",
+      "name": "Sémaglutide",
+      "category": "metabolisme-composition-corporelle",
+      "description": "Agoniste du récepteur GLP-1, une voie impliquée dans la régulation de l’appétit et de la glycémie. Il est décrit dans le contexte de sa longue demi-vie et de la titration progressive.",
+      "featured": true,
+      "variants": [
+        { "label": "5 mg", "price": 55 },
+        { "label": "10 mg", "price": 95 }
+      ]
+    },
+    {
+      "slug": "tesamoreline",
+      "name": "Tésamoréline",
+      "category": "metabolisme-composition-corporelle",
+      "description": "Analogue synthétique de la GHRH, présenté comme stimulant la sécrétion d’hormone de croissance. Il est associé à des recherches sur la graisse viscérale et la composition corporelle.",
+      "price": 80
+    },
+    {
+      "slug": "tirzepatide",
+      "name": "Tirzépatide",
+      "category": "metabolisme-composition-corporelle",
+      "description": "Double agoniste des récepteurs GIP et GLP-1. Il est décrit dans le contexte des voies de satiété, de la réponse insulinique dépendante du glucose et du métabolisme énergétique.",
+      "variants": [
+        { "label": "10 mg", "price": 70 },
+        { "label": "30 mg", "price": 150 }
+      ]
+    },
+    {
+      "slug": "bpc-157",
+      "name": "BPC-157",
+      "category": "reparation-recuperation",
+      "description": "Peptide présenté comme étudié dans le contexte de la réparation et de la protection des tissus. Les domaines cités comprennent les tissus conjonctifs, la muqueuse digestive et la cicatrisation.",
+      "featured": true,
+      "variants": [
+        { "label": "5 mg", "price": 45 },
+        { "label": "10 mg", "price": 75 }
+      ]
+    },
+    {
+      "slug": "bpc-157-tb-500-blend",
+      "name": "BPC-157 / TB-500 Blend",
+      "category": "reparation-recuperation",
+      "description": "Mélange réunissant BPC-157 et TB-500. Il est présenté autour de la réparation tissulaire, de la migration cellulaire et de la récupération.",
+      "price": 90
+    },
+    {
+      "slug": "cjc-1295-sans-dac",
+      "name": "CJC-1295 (sans DAC)",
+      "category": "reparation-recuperation",
+      "description": "Analogue de la GHRH également appelé Mod GRF (1-29). Il est décrit dans le cadre de recherches sur la sécrétion pulsatile de l’hormone de croissance.",
+      "price": 55
+    },
+    {
+      "slug": "cjc-1295-ipamorelin-blend",
+      "name": "CJC-1295 / Ipamorelin Blend",
+      "category": "reparation-recuperation",
+      "description": "Association de CJC-1295 sans DAC et d’Ipamorelin, présentés comme agissant sur des récepteurs distincts liés à la sécrétion d’hormone de croissance. Les axes mentionnés incluent la récupération et le sommeil.",
+      "price": 65
+    },
+    {
+      "slug": "ipamorelin",
+      "name": "Ipamorelin",
+      "category": "reparation-recuperation",
+      "description": "Peptide mimétique de la ghréline présenté comme étudié pour son action sur la sécrétion d’hormone de croissance. Les domaines cités incluent le sommeil, la récupération et la composition corporelle.",
+      "price": 50,
+      "featured": true
+    },
+    {
+      "slug": "tb-500",
+      "name": "TB-500",
+      "category": "reparation-recuperation",
+      "description": "Fragment synthétique de la thymosine bêta-4. Il est présenté comme étudié dans les domaines de la régénération cellulaire, de la réparation des tissus, de l’inflammation et de la mobilité.",
+      "featured": true,
+      "variants": [
+        { "label": "5 mg", "price": 55 },
+        { "label": "10 mg", "price": 95 }
+      ]
+    },
+    {
+      "slug": "dsip",
+      "name": "DSIP (Delta Sleep Inducing Peptide)",
+      "category": "sommeil-recuperation",
+      "description": "Peptide de dix acides aminés étudié pour ses liens potentiels avec la régulation du sommeil profond, la récupération nerveuse et l’équilibre neuroendocrinien.",
+      "price": 45
+    },
+    {
+      "slug": "epitalon",
+      "name": "Épitalon (Epithalon / Epithalone)",
+      "category": "longevite-energie",
+      "description": "Tétrapeptide de synthèse (Ala-Glu-Asp-Gly) dérivé de l’épithalamine. Les axes de recherche évoqués incluent la télomérase, la mélatonine et les rythmes circadiens.",
+      "price": 40,
+      "featured": true
+    },
+    {
+      "slug": "glutathion",
+      "name": "Glutathion (GSH)",
+      "category": "longevite-energie",
+      "description": "Tripeptide composé de glutamate, cystéine et glycine, décrit comme un antioxydant naturellement présent dans l’organisme. Il est associé à la défense contre le stress oxydatif et à l’équilibre redox.",
+      "price": 50
+    },
+    {
+      "slug": "nad-plus",
+      "name": "NAD+",
+      "category": "longevite-energie",
+      "description": "Coenzyme naturellement présente dans les cellules, impliquée dans la production d’énergie cellulaire et différents processus biologiques. Elle est présentée dans le contexte de la fonction cellulaire et du métabolisme énergétique.",
+      "variants": [
+        { "label": "500 mg", "price": 70 },
+        { "label": "1000 mg", "price": 120 }
+      ]
+    },
+    {
+      "slug": "ghk-cu",
+      "name": "GHK-Cu",
+      "category": "peau-esthetique",
+      "description": "Peptide de signalisation lié au cuivre. Il est associé à des recherches sur la réparation tissulaire, le collagène, l’élastine, la qualité de la peau et les cheveux.",
+      "featured": true,
+      "variants": [
+        { "label": "50 mg", "price": 40 },
+        { "label": "100 mg", "price": 65 }
+      ]
+    },
+    {
+      "slug": "glow-blend",
+      "name": "GLOW Blend",
+      "category": "peau-esthetique",
+      "description": "Mélange de GHK-Cu, BPC-157 et TB-500. Il est présenté autour de la peau, du collagène, de la régénération et de la récupération tissulaire.",
+      "price": 80
+    },
+    {
+      "slug": "klow-blend",
+      "name": "KLOW Blend",
+      "category": "peau-esthetique",
+      "description": "Version du mélange GLOW à laquelle est ajouté le peptide KPV. Elle est décrite comme couvrant aussi des axes de recherche liés à l’inflammation et à l’immunomodulation.",
+      "price": 95
+    },
+    {
+      "slug": "mt-1",
+      "name": "MT-1 (Melanotan 1 / MT1)",
+      "category": "peau-esthetique",
+      "description": "Analogue de l’α-MSH étudié pour son influence sur la mélanogenèse et la pigmentation cutanée.",
+      "price": 45
+    },
+    {
+      "slug": "mt-2",
+      "name": "MT-2 (Melanotan 2)",
+      "category": "peau-esthetique",
+      "description": "Analogue de l’α-MSH étudié pour ses effets sur la production de mélanine et la pigmentation cutanée.",
+      "price": 40
+    },
+    {
+      "slug": "snap-8",
+      "name": "SNAP-8",
+      "category": "peau-esthetique",
+      "description": "Peptide cosmétique (Acetyl Octapeptide-3) présenté comme un ingrédient topique étudié pour moduler les micro-contractions associées aux rides d’expression.",
+      "price": 35
+    },
+    {
+      "slug": "igf-1-lr3",
+      "name": "IGF-1 LR3",
+      "category": "performance-vitalite",
+      "description": "Analogue modifié de l’IGF-1, conçu pour avoir une demi-vie plus longue que l’IGF-1 natif. Il est présenté dans le contexte de recherches sur la croissance et la récupération tissulaire.",
+      "price": 85
+    },
+    {
+      "slug": "kpv",
+      "name": "KPV",
+      "category": "anti-inflammatoire-immunite",
+      "description": "Tripeptide Lys-Pro-Val associé à la séquence C-terminale de l’α-MSH. Il est présenté comme étudié pour ses propriétés anti-inflammatoires et ses liens avec la réparation tissulaire.",
+      "price": 50
+    },
+    {
+      "slug": "pt-141",
+      "name": "PT-141 (Bremélanotide)",
+      "category": "sante-sexuelle",
+      "description": "Peptide synthétique décrit comme agoniste de récepteurs de la mélanocortine. Il est présenté dans le contexte de recherches sur les mécanismes neurologiques du désir sexuel.",
+      "price": 45
+    },
+    {
+      "slug": "selank",
+      "name": "Selank",
+      "category": "cognition-neuro",
+      "description": "Peptide synthétique dérivé de la tuftsin, décrit comme étudié dans les domaines du stress, de l’anxiété et de la stabilité émotionnelle.",
+      "price": 45
+    },
+    {
+      "slug": "semax",
+      "name": "Semax",
+      "category": "cognition-neuro",
+      "description": "Peptide synthétique dérivé de l’ACTH (4-10). Il est associé à des recherches sur les fonctions cognitives, la résilience au stress et certains mécanismes neurobiologiques.",
+      "price": 45,
+      "featured": true
+    }
+  ]
+}
