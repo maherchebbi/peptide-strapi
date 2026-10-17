@@ -30,6 +30,12 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
       sessions: {
         httpOnly: true,
       },
+      register: {
+        // "username" est toujours envoyé par l'API Next (= l'email), mais plus
+        // demandé à l'utilisateur. On autorise prénom/nom à l'inscription ;
+        // les adresses se complètent ensuite depuis la page Compte.
+        allowedFields: ['firstName', 'lastName'],
+      },
     },
   },
   upload: {

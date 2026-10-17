@@ -1,0 +1,8 @@
+{
+  "collectionName": "components_product_points",
+  "info": { "displayName": "Point" },
+  "options": {},
+  "attributes": {
+    "text": { "type": "text", "required": true }
+  }
+}

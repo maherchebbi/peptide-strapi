@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_product_references",
+  "info": { "displayName": "Reference" },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string", "required": true },
+    "href": { "type": "string", "required": true }
+  }
+}
