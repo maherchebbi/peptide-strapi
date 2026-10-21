@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_messages",
+  "info": {
+    "singularName": "contact-message",
+    "pluralName": "contact-messages",
+    "displayName": "Contact Message",
+    "description": "Messages envoyés depuis le formulaire de contact"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "email": { "type": "email", "required": true },
+    "subject": {
+      "type": "enumeration",
+      "enum": ["produit", "lot", "commande", "site", "autre"],
+      "required": true
+    },
+    "product": { "type": "string" },
+    "reference": { "type": "string" },
+    "message": { "type": "text", "required": true }
+  }
+}
