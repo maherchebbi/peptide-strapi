@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "protocols",
+  "info": {
+    "singularName": "protocol",
+    "pluralName": "protocols",
+    "displayName": "Protocol",
+    "description": "Protocoles enregistrés par les membres"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "customerId": { "type": "integer", "required": true },
+    "product": { "type": "string" },
+    "data": { "type": "json", "required": true }
+  }
+}
