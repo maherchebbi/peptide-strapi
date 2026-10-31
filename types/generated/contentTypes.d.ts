@@ -611,6 +611,8 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.Text & Schema.Attribute.Required;
+    dosage: Schema.Attribute.Component<'product.dosage-section', false>;
+    extraSections: Schema.Attribute.Component<'product.rich-section', true>;
     facts: Schema.Attribute.Component<'product.fact', true>;
     featured: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     handling: Schema.Attribute.Component<'product.point', true>;
@@ -632,10 +634,15 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     references: Schema.Attribute.Component<'product.reference', true>;
     safety: Schema.Attribute.Component<'product.point', true>;
     short: Schema.Attribute.String;
+    sideEffects: Schema.Attribute.Component<'product.point', true>;
     slug: Schema.Attribute.UID<'name'> & Schema.Attribute.Required;
+    sourceInfo: Schema.Attribute.Component<'product.source-info', false>;
+    stacks: Schema.Attribute.Component<'product.highlight', true>;
     status: Schema.Attribute.String;
     storage: Schema.Attribute.Component<'product.storage-item', true>;
     subtitle: Schema.Attribute.String;
+    synergies: Schema.Attribute.Component<'product.highlight', true>;
+    timeline: Schema.Attribute.Component<'product.timeline-item', true>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

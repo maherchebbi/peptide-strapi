@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_product_dosage_references",
+  "info": {
+    "displayName": "Dosage reference",
+    "description": "Dosage de reference documentaire (source), jamais une recommandation medicale"
+  },
+  "options": {},
+  "attributes": {
+    "level": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "valueText": {
+      "type": "string",
+      "required": true
+    },
+    "valueMin": {
+      "type": "decimal"
+    },
+    "valueMax": {
+      "type": "decimal"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "position": {
+      "type": "integer"
+    }
+  }
+}

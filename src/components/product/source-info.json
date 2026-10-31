@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_product_source_infos",
+  "info": {
+    "displayName": "Source info",
+    "description": "Tracabilite de la source : URL, date, categories/statuts affiches, mentions de droits"
+  },
+  "options": {},
+  "attributes": {
+    "sourceName": {
+      "type": "string"
+    },
+    "sourceUrl": {
+      "type": "string"
+    },
+    "sourceSlug": {
+      "type": "string"
+    },
+    "sourceSku": {
+      "type": "string"
+    },
+    "scrapedAt": {
+      "type": "datetime"
+    },
+    "shopCategory": {
+      "type": "string"
+    },
+    "editorialCategory": {
+      "type": "string"
+    },
+    "sourceBadge": {
+      "type": "string"
+    },
+    "sourceStage": {
+      "type": "string"
+    },
+    "bestsellerCandidate": {
+      "type": "boolean",
+      "default": false
+    },
+    "keyFigures": {
+      "type": "component",
+      "component": "product.fact",
+      "repeatable": true
+    },
+    "supplierVariants": {
+      "type": "component",
+      "component": "product.supplier-variant",
+      "repeatable": true
+    },
+    "sourceDisclaimer": {
+      "type": "text"
+    },
+    "rightsNote": {
+      "type": "text"
+    }
+  }
+}

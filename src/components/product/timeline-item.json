@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_product_timeline_items",
+  "info": {
+    "displayName": "Timeline item",
+    "description": "Evolution dans le temps (periode + description)"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

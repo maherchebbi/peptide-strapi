@@ -37,7 +37,9 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "price": {
       "type": "decimal"
@@ -107,6 +109,41 @@
       "type": "component",
       "component": "product.reference",
       "repeatable": true
+    },
+    "dosage": {
+      "type": "component",
+      "component": "product.dosage-section",
+      "repeatable": false
+    },
+    "timeline": {
+      "type": "component",
+      "component": "product.timeline-item",
+      "repeatable": true
+    },
+    "synergies": {
+      "type": "component",
+      "component": "product.highlight",
+      "repeatable": true
+    },
+    "stacks": {
+      "type": "component",
+      "component": "product.highlight",
+      "repeatable": true
+    },
+    "sideEffects": {
+      "type": "component",
+      "component": "product.point",
+      "repeatable": true
+    },
+    "extraSections": {
+      "type": "component",
+      "component": "product.rich-section",
+      "repeatable": true
+    },
+    "sourceInfo": {
+      "type": "component",
+      "component": "product.source-info",
+      "repeatable": false
     }
   }
 }

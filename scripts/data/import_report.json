@@ -1,0 +1,955 @@
+{
+  "mode": "APPLY",
+  "startedAt": "2026-10-31T13:35:36.367Z",
+  "categories": [
+    {
+      "slug": "metabolisme-composition-corporelle",
+      "status": "existe"
+    },
+    {
+      "slug": "reparation-recuperation",
+      "status": "existe"
+    },
+    {
+      "slug": "sommeil-recuperation",
+      "status": "existe"
+    },
+    {
+      "slug": "longevite-energie",
+      "status": "existe"
+    },
+    {
+      "slug": "peau-esthetique",
+      "status": "existe"
+    },
+    {
+      "slug": "performance-vitalite",
+      "status": "existe"
+    },
+    {
+      "slug": "anti-inflammatoire-immunite",
+      "status": "existe"
+    },
+    {
+      "slug": "sante-sexuelle",
+      "status": "existe"
+    },
+    {
+      "slug": "cognition-neuro",
+      "status": "existe"
+    }
+  ],
+  "products": [
+    {
+      "slug": "bioglutide-na-931",
+      "sourceSlug": "bioglutide",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée, ne pas a…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "brenipatide-ly-3537031",
+      "sourceSlug": "brenipatide",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "sideEffects",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [
+        {
+          "field": "subtitle",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        },
+        {
+          "field": "intro",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        },
+        {
+          "field": "chemistry",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        },
+        {
+          "field": "purityNote",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        },
+        {
+          "field": "highlights",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        },
+        {
+          "field": "mechanism",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        },
+        {
+          "field": "history",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        },
+        {
+          "field": "handling",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        },
+        {
+          "field": "safety",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        },
+        {
+          "field": "storage",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        },
+        {
+          "field": "references",
+          "reason": "deja renseigne (utiliser --overwrite pour remplacer)"
+        }
+      ],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler, ne pas agiter vigoureusement, évi…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "cagrilintide-am833",
+      "sourceSlug": "cagrilintide",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler, ne pas agiter vigoureusement, évi…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "retatrutide",
+      "sourceSlug": "retatrutide",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée, ne pas a…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "semaglutide",
+      "sourceSlug": "semaglutide",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler, ne pas agiter vigoureusement, évi…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "tirzepatide",
+      "sourceSlug": "tirzepatide",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler, ne pas agiter vigoureusement, évi…)",
+        "[cycle_vs_titration_total] Cycle annonce 12 sem. mais la somme des durees de titration = 16 sem."
+      ],
+      "error": null
+    },
+    {
+      "slug": "bpc-157",
+      "sourceSlug": "bpc-157",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "stacks",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Éviter les cycles de congélation/décongélation ; p…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "bpc-157-tb-500-blend",
+      "sourceSlug": "bpc157-tb500",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "highlights",
+        "mechanism",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler ; faire tourner doucement le flaco…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "kpv",
+      "sourceSlug": "kpv",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "stacks",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Éviter les cycles de congélation/décongélation ; m…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "tb-500",
+      "sourceSlug": "tb-500",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "stacks",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Éviter les cycles de congélation/décongélation ; n…)",
+        "[cycle_vs_titration_total] Cycle annonce 6 sem. mais la somme des durees de titration = 14 sem."
+      ],
+      "error": null
+    },
+    {
+      "slug": "cjc-1295-sans-dac",
+      "sourceSlug": "cjc-1295",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée, ne pas a…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "cjc-1295-ipamorelin-blend",
+      "sourceSlug": "cjc1295-ipamorelin",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "highlights",
+        "mechanism",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler ; faire tourner doucement le flaco…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "igf-1-lr3",
+      "sourceSlug": "igf-1lr3-0-1mg",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée, ne pas a…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "ipamorelin",
+      "sourceSlug": "ipamorelin",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "stacks",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée ; la prot…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "tesamoreline",
+      "sourceSlug": "tesamorelin",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "stacks",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée ; la prot…)",
+        "[variant_missing_catalog_label] SKU TSM20 : prix connu (180) mais libelle absent du catalogue boutique."
+      ],
+      "error": null
+    },
+    {
+      "slug": "epitalon",
+      "sourceSlug": "epitalon",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée ; la prot…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "glutathion",
+      "sourceSlug": "glutathione",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Éviter chaleur, lumière et cycles de congélation/d…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "dsip",
+      "sourceSlug": "dsip",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "stacks",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée ; la prot…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "selank",
+      "sourceSlug": "selank",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "stacks",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée ; la prot…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "semax",
+      "sourceSlug": "semax",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "stacks",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée ; la prot…)",
+        "[cycle_vs_titration_total] Cycle annonce 8 sem. mais la somme des durees de titration = 4 sem."
+      ],
+      "error": null
+    },
+    {
+      "slug": "pt-141",
+      "sourceSlug": "pt-141",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne pas congeler la solution reconstituée ; la prot…)",
+        "cycle « 0 sem. » ambigu : cycleWeeks laisse vide, libelle conserve",
+        "[cycle_zero_ambiguous] Cycle « 0 sem. » ambigu : valeur numerique laissee vide, texte conserve."
+      ],
+      "error": null
+    },
+    {
+      "slug": "ghk-cu",
+      "sourceSlug": "ghk-cu",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "stacks",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Éviter chaleur, lumière directe et cycles de congé…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "snap-8",
+      "sourceSlug": "snap-8",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Utiliser le sérum reconstitué dans un délai limité…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "mt-1",
+      "sourceSlug": "mt-1",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne jamais congeler la solution reconstituée ; fair…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "mt-2",
+      "sourceSlug": "mt-2",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne jamais congeler ; faire tourner doucement le fl…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "glow-blend",
+      "sourceSlug": "glow",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "highlights",
+        "mechanism",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne jamais congeler la solution reconstituée.…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "klow-blend",
+      "sourceSlug": "klow",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "highlights",
+        "mechanism",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Ne jamais congeler la solution reconstituée.…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "mots-c",
+      "sourceSlug": "mots-c",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Éviter les cycles de congélation/décongélation ; i…)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "nad-plus",
+      "sourceSlug": "nad-plus",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Éviter chaleur, lumière directe et cycles de congé…)",
+        "[phase_value_differs_from_label] Etape 2 : valeur « 75 mg » differente de la fourchette du libelle « 50-100 mg » (le libelle original est conserve ; ne pas utiliser la valeur comme dose).",
+        "[phase_value_differs_from_label] Etape 3 : valeur « 125 mg » differente de la fourchette du libelle « 100-150 mg » (le libelle original est conserve ; ne pas utiliser la valeur comme dose)."
+      ],
+      "error": null
+    },
+    {
+      "slug": "mots-c-10mg-double-chambre",
+      "sourceSlug": "mots-c-10mg-double-chambre",
+      "status": "mis_a_jour",
+      "fieldsWritten": [
+        "subtitle",
+        "intro",
+        "chemistry",
+        "purityNote",
+        "highlights",
+        "mechanism",
+        "history",
+        "handling",
+        "safety",
+        "sideEffects",
+        "storage",
+        "references",
+        "timeline",
+        "synergies",
+        "dosage",
+        "extraSections",
+        "sourceInfo"
+      ],
+      "fieldsSkipped": [],
+      "warnings": [
+        "conservation sans libelle dans la source : label « Note » par defaut (Éviter les cycles de congélation/décongélation ; i…)",
+        "[missing_images] Aucune image de produit trouvee (fiche et boutique).",
+        "[variant_missing_catalog_label] SKU PMS-10 : prix connu (84.99) mais libelle absent du catalogue boutique."
+      ],
+      "error": null
+    }
+  ],
+  "totals": {
+    "produits_dans_fichier": 30,
+    "mis_a_jour": 30,
+    "crees": 0,
+    "inchanges": 0,
+    "absents_de_strapi": 0,
+    "erreurs": 0
+  },
+  "finishedAt": "2026-10-31T13:35:40.354Z"
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_product_rich_sections",
+  "info": {
+    "displayName": "Rich section",
+    "description": "Section editoriale de la source sans champ dedie (texte brut, listes en lignes « - »)"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "integer"
+    },
+    "position": {
+      "type": "integer"
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

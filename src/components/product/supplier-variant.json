@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_product_supplier_variants",
+  "info": {
+    "displayName": "Supplier variant",
+    "description": "Variante de la boutique SOURCE (reference uniquement, distincte de vos variantes)"
+  },
+  "options": {},
+  "attributes": {
+    "sku": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string"
+    },
+    "sizeText": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "bestseller": {
+      "type": "boolean",
+      "default": false
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}
