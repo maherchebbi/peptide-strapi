@@ -1,0 +1,9 @@
+{
+    "collectionName": "components_product_highlights",
+    "info": { "displayName": "Highlight" },
+    "options": {},
+    "attributes": {
+        "title": { "type": "string", "required": true },
+        "text": { "type": "text", "required": true }
+    }
+}

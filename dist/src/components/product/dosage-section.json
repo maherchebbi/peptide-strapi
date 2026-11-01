@@ -1,0 +1,67 @@
+{
+    "collectionName": "components_product_dosage_sections",
+    "info": {
+        "displayName": "Dosage section",
+        "description": "Dosages & protocole : section documentaire complete issue de la source (non medicale)"
+    },
+    "options": {},
+    "attributes": {
+        "cycleLabel": {
+            "type": "string"
+        },
+        "cycleWeeks": {
+            "type": "decimal"
+        },
+        "pauseWeeks": {
+            "type": "decimal"
+        },
+        "timing": {
+            "type": "text"
+        },
+        "halfLife": {
+            "type": "text"
+        },
+        "applicationText": {
+            "type": "text"
+        },
+        "referenceDosages": {
+            "type": "component",
+            "component": "product.dosage-reference",
+            "repeatable": true
+        },
+        "titrationPhases": {
+            "type": "component",
+            "component": "product.titration-phase",
+            "repeatable": true
+        },
+        "reconstitution": {
+            "type": "component",
+            "component": "product.reconstitution",
+            "repeatable": false
+        },
+        "notes": {
+            "type": "component",
+            "component": "product.point",
+            "repeatable": true
+        },
+        "relatedSections": {
+            "type": "component",
+            "component": "product.dosage-note",
+            "repeatable": true
+        },
+        "extraStats": {
+            "type": "component",
+            "component": "product.fact",
+            "repeatable": true
+        },
+        "sourceContent": {
+            "type": "text"
+        },
+        "sourceUrl": {
+            "type": "string"
+        },
+        "disclaimer": {
+            "type": "text"
+        }
+    }
+}

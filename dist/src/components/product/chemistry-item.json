@@ -1,0 +1,9 @@
+{
+    "collectionName": "components_product_chemistry_items",
+    "info": { "displayName": "Chemistry item" },
+    "options": {},
+    "attributes": {
+        "label": { "type": "string", "required": true },
+        "value": { "type": "string", "required": true }
+    }
+}

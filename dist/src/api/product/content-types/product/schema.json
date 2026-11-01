@@ -1,0 +1,149 @@
+{
+    "kind": "collectionType",
+    "collectionName": "products",
+    "info": {
+        "singularName": "product",
+        "pluralName": "products",
+        "displayName": "Product",
+        "description": "Produit du catalogue (boutique)"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "slug": {
+            "type": "uid",
+            "targetField": "name",
+            "required": true
+        },
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "category": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::category.category",
+            "inversedBy": "products"
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "short": {
+            "type": "string"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "price": {
+            "type": "decimal"
+        },
+        "variants": {
+            "type": "component",
+            "component": "product.variant",
+            "repeatable": true
+        },
+        "featured": {
+            "type": "boolean",
+            "default": false
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string"
+        },
+        "intro": {
+            "type": "text"
+        },
+        "purityNote": {
+            "type": "text"
+        },
+        "facts": {
+            "type": "component",
+            "component": "product.fact",
+            "repeatable": true
+        },
+        "chemistry": {
+            "type": "component",
+            "component": "product.chemistry-item",
+            "repeatable": true
+        },
+        "highlights": {
+            "type": "component",
+            "component": "product.highlight",
+            "repeatable": true
+        },
+        "mechanism": {
+            "type": "component",
+            "component": "product.point",
+            "repeatable": true
+        },
+        "history": {
+            "type": "component",
+            "component": "product.history-item",
+            "repeatable": true
+        },
+        "handling": {
+            "type": "component",
+            "component": "product.point",
+            "repeatable": true
+        },
+        "storage": {
+            "type": "component",
+            "component": "product.storage-item",
+            "repeatable": true
+        },
+        "safety": {
+            "type": "component",
+            "component": "product.point",
+            "repeatable": true
+        },
+        "references": {
+            "type": "component",
+            "component": "product.reference",
+            "repeatable": true
+        },
+        "dosage": {
+            "type": "component",
+            "component": "product.dosage-section",
+            "repeatable": false
+        },
+        "timeline": {
+            "type": "component",
+            "component": "product.timeline-item",
+            "repeatable": true
+        },
+        "synergies": {
+            "type": "component",
+            "component": "product.highlight",
+            "repeatable": true
+        },
+        "stacks": {
+            "type": "component",
+            "component": "product.highlight",
+            "repeatable": true
+        },
+        "sideEffects": {
+            "type": "component",
+            "component": "product.point",
+            "repeatable": true
+        },
+        "extraSections": {
+            "type": "component",
+            "component": "product.rich-section",
+            "repeatable": true
+        },
+        "sourceInfo": {
+            "type": "component",
+            "component": "product.source-info",
+            "repeatable": false
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "collectionName": "components_product_variants",
+    "info": { "displayName": "Variant" },
+    "options": {},
+    "attributes": {
+        "label": { "type": "string", "required": true },
+        "price": { "type": "decimal", "required": true }
+    }
+}

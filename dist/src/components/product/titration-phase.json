@@ -1,0 +1,59 @@
+{
+    "collectionName": "components_product_titration_phases",
+    "info": {
+        "displayName": "Titration phase",
+        "description": "Etape de titration documentaire (source) : valeurs et libelles originaux conserves"
+    },
+    "options": {},
+    "attributes": {
+        "step": {
+            "type": "integer",
+            "required": true
+        },
+        "position": {
+            "type": "integer"
+        },
+        "periodLabel": {
+            "type": "string"
+        },
+        "periodUnit": {
+            "type": "enumeration",
+            "enum": [
+                "semaine",
+                "mois",
+                "jour"
+            ]
+        },
+        "periodStart": {
+            "type": "decimal"
+        },
+        "periodEnd": {
+            "type": "decimal"
+        },
+        "openEnded": {
+            "type": "boolean",
+            "default": false
+        },
+        "durationLabel": {
+            "type": "string"
+        },
+        "durationWeeks": {
+            "type": "decimal"
+        },
+        "valueText": {
+            "type": "string"
+        },
+        "valueMin": {
+            "type": "decimal"
+        },
+        "valueMax": {
+            "type": "decimal"
+        },
+        "unit": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}

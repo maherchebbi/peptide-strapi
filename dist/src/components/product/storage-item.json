@@ -1,0 +1,9 @@
+{
+    "collectionName": "components_product_storage_items",
+    "info": { "displayName": "Storage item" },
+    "options": {},
+    "attributes": {
+        "label": { "type": "string", "required": true },
+        "text": { "type": "text", "required": true }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "collectionName": "components_product_reconstitutions",
+    "info": {
+        "displayName": "Reconstitution",
+        "description": "Reconstitution documentaire : fiole + diluant = concentration (texte original conserve)"
+    },
+    "options": {},
+    "attributes": {
+        "vialAmountText": {
+            "type": "string"
+        },
+        "vialLabel": {
+            "type": "string"
+        },
+        "diluentAmountText": {
+            "type": "string"
+        },
+        "diluentLabel": {
+            "type": "string"
+        },
+        "resultText": {
+            "type": "string"
+        },
+        "resultValue": {
+            "type": "decimal"
+        },
+        "resultUnit": {
+            "type": "string"
+        },
+        "calculatorLabel": {
+            "type": "string"
+        },
+        "calculatorHref": {
+            "type": "string"
+        },
+        "originalText": {
+            "type": "text"
+        }
+    }
+}
