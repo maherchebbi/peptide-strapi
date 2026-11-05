@@ -144,6 +144,9 @@
             "type": "component",
             "component": "product.source-info",
             "repeatable": false
+        },
+        "translations": {
+            "type": "json"
         }
     }
 }

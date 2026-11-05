@@ -140,10 +140,14 @@
       "component": "product.rich-section",
       "repeatable": true
     },
-    "sourceInfo": {
+       "sourceInfo": {
       "type": "component",
       "component": "product.source-info",
       "repeatable": false
+    },
+    "translations": {
+      "type": "json"
     }
   }
 }
+  
