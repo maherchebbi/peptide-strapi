@@ -12,7 +12,21 @@ const config = ({ env }) => {
     return [
         'strapi::logger',
         'strapi::errors',
-        'strapi::security',
+        {
+            // Autorise les images et médias hébergés sur Cloudinary dans l'administration.
+            name: 'strapi::security',
+            config: {
+                contentSecurityPolicy: {
+                    useDefaults: true,
+                    directives: {
+                        'connect-src': ["'self'", 'https:'],
+                        'img-src': ["'self'", 'data:', 'blob:', 'market-assets.strapi.io', 'res.cloudinary.com'],
+                        'media-src': ["'self'", 'data:', 'blob:', 'market-assets.strapi.io', 'res.cloudinary.com'],
+                        upgradeInsecureRequests: null,
+                    },
+                },
+            },
+        },
         {
             name: 'strapi::cors',
             config: {

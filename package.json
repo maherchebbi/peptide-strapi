@@ -12,12 +12,14 @@
     "start": "strapi start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
-    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+    "upgrade:dry": "npx @strapi/upgrade latest --dry",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@strapi/database": "5.58.0",
     "@strapi/plugin-cloud": "5.58.0",
     "@strapi/plugin-users-permissions": "5.58.0",
+    "@strapi/provider-upload-cloudinary": "^5.61.1",
     "@strapi/strapi": "5.58.0",
     "better-sqlite3": "12.8.0",
     "pg": "^8.23.1",
