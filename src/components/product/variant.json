@@ -3,6 +3,12 @@
   "info": { "displayName": "Variant" },
   "options": {},
   "attributes": {
+    "image": {
+  "type": "media",
+  "multiple": false,
+  "required": false,
+  "allowedTypes": ["images"]
+},
     "label": { "type": "string", "required": true },
     "price": { "type": "decimal", "required": true }
   }
