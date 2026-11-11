@@ -262,6 +262,7 @@ export interface ProductVariant extends Struct.ComponentSchema {
     displayName: 'Variant';
   };
   attributes: {
+    image: Schema.Attribute.Media<'images'>;
     label: Schema.Attribute.String & Schema.Attribute.Required;
     price: Schema.Attribute.Decimal & Schema.Attribute.Required;
   };
