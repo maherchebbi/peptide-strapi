@@ -14,15 +14,16 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Middlewar
     'strapi::logger',
     'strapi::errors',
     {
-      // Autorise les images et médias hébergés sur Cloudinary dans l'administration.
+      // Autorise l'affichage des images et médias de l'administration
+      // (fichiers stockés en local par Strapi, dans /uploads).
       name: 'strapi::security',
       config: {
         contentSecurityPolicy: {
           useDefaults: true,
           directives: {
             'connect-src': ["'self'", 'https:'],
-            'img-src': ["'self'", 'data:', 'blob:', 'market-assets.strapi.io', 'res.cloudinary.com'],
-            'media-src': ["'self'", 'data:', 'blob:', 'market-assets.strapi.io', 'res.cloudinary.com'],
+            'img-src': ["'self'", 'data:', 'blob:', 'market-assets.strapi.io'],
+            'media-src': ["'self'", 'data:', 'blob:', 'market-assets.strapi.io'],
             upgradeInsecureRequests: null,
           },
         },
