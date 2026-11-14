@@ -1,0 +1,1570 @@
+[
+  {
+    "sourceSlug": "retatrutide",
+    "targetSlug": "retatrutide",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/retatrutide/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "0.5 mg",
+          "valueMin": 0.5,
+          "valueMax": 0.5,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "1 mg",
+          "valueMin": 1,
+          "valueMax": 1,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "6 mg",
+          "valueMin": 6,
+          "valueMax": 6,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "titrationPhases": [
+        {
+          "step": 1,
+          "periodLabel": "Semaine 11",
+          "periodUnit": "semaine",
+          "periodStart": 11,
+          "periodEnd": 11,
+          "openEnded": false,
+          "durationLabel": "1 sem.",
+          "durationWeeks": 1,
+          "valueText": "0.5 mg",
+          "valueMin": 0.5,
+          "valueMax": 0.5,
+          "unit": "mg"
+        },
+        {
+          "step": 2,
+          "periodLabel": "Semaines 2-3-43",
+          "periodUnit": "semaine",
+          "periodStart": 2,
+          "periodEnd": 3,
+          "openEnded": false,
+          "durationLabel": "2 sem.",
+          "durationWeeks": 2,
+          "valueText": "1 mg",
+          "valueMin": 1,
+          "valueMax": 1,
+          "unit": "mg"
+        },
+        {
+          "step": 3,
+          "periodLabel": "Semaines 5-84",
+          "periodUnit": "semaine",
+          "periodStart": 5,
+          "periodEnd": 84,
+          "openEnded": false,
+          "durationLabel": "3 sem.",
+          "durationWeeks": 3,
+          "valueText": "2 mg",
+          "valueMin": 2,
+          "valueMax": 2,
+          "unit": "mg"
+        },
+        {
+          "step": 4,
+          "periodLabel": "Semaines 9-124",
+          "periodUnit": "semaine",
+          "periodStart": 9,
+          "periodEnd": 124,
+          "openEnded": false,
+          "durationLabel": "4 sem.",
+          "durationWeeks": 4,
+          "valueText": "4 mg",
+          "valueMin": 4,
+          "valueMax": 4,
+          "unit": "mg"
+        },
+        {
+          "step": 5,
+          "periodLabel": "Semaines 13-16+4",
+          "periodUnit": "semaine",
+          "periodStart": 13,
+          "periodEnd": 16,
+          "openEnded": true,
+          "durationLabel": "5 sem.",
+          "durationWeeks": 5,
+          "valueText": "6 mg",
+          "valueMin": 6,
+          "valueMax": 6,
+          "unit": "mg"
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "1 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "10 mg/ml",
+        "resultValue": 10,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 1 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/retatrutide/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "bioglutide",
+    "targetSlug": "bioglutide",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/bioglutide/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "0.25 mg",
+          "valueMin": 0.25,
+          "valueMax": 0.25,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "0.5 mg",
+          "valueMin": 0.5,
+          "valueMax": 0.5,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "2.4 mg",
+          "valueMin": 2.4,
+          "valueMax": 2.4,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "titrationPhases": [
+        {
+          "step": 1,
+          "periodLabel": "Semaines 1-44",
+          "periodUnit": "semaine",
+          "periodStart": 1,
+          "periodEnd": 44,
+          "openEnded": false,
+          "durationLabel": "1 sem.",
+          "durationWeeks": 1,
+          "valueText": "0.25 mg",
+          "valueMin": 0.25,
+          "valueMax": 0.25,
+          "unit": "mg"
+        },
+        {
+          "step": 2,
+          "periodLabel": "Semaines 5-84",
+          "periodUnit": "semaine",
+          "periodStart": 5,
+          "periodEnd": 84,
+          "openEnded": false,
+          "durationLabel": "2 sem.",
+          "durationWeeks": 2,
+          "valueText": "0.5 mg",
+          "valueMin": 0.5,
+          "valueMax": 0.5,
+          "unit": "mg"
+        },
+        {
+          "step": 3,
+          "periodLabel": "Semaines 9-124",
+          "periodUnit": "semaine",
+          "periodStart": 9,
+          "periodEnd": 124,
+          "openEnded": false,
+          "durationLabel": "3 sem.",
+          "durationWeeks": 3,
+          "valueText": "1 mg",
+          "valueMin": 1,
+          "valueMax": 1,
+          "unit": "mg"
+        },
+        {
+          "step": 4,
+          "periodLabel": "Semaines 13-164",
+          "periodUnit": "semaine",
+          "periodStart": 13,
+          "periodEnd": 164,
+          "openEnded": false,
+          "durationLabel": "4 sem.",
+          "durationWeeks": 4,
+          "valueText": "1.7 mg",
+          "valueMin": 1.7,
+          "valueMax": 1.7,
+          "unit": "mg"
+        },
+        {
+          "step": 5,
+          "periodLabel": "Semaines 17+4",
+          "periodUnit": "semaine",
+          "openEnded": true,
+          "durationLabel": "5 sem.",
+          "durationWeeks": 5,
+          "valueText": "2.4 mg",
+          "valueMin": 2.4,
+          "valueMax": 2.4,
+          "unit": "mg"
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "1 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "10 mg/ml",
+        "resultValue": 10,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 1 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/bioglutide/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "brenipatide",
+    "targetSlug": "brenipatide-ly-3537031",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/brenipatide/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "2 mg",
+          "valueMin": 2,
+          "valueMax": 2,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "4–8 mg",
+          "valueMin": 4,
+          "valueMax": 8,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "10 mg",
+          "valueMin": 10,
+          "valueMax": 10,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "1 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "10 mg/ml",
+        "resultValue": 10,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 1 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/brenipatide/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "semaglutide",
+    "targetSlug": "semaglutide",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/semaglutide/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "0.25 mg",
+          "valueMin": 0.25,
+          "valueMax": 0.25,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "0.5–1 mg",
+          "valueMin": 0.5,
+          "valueMax": 1,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "2.4 mg",
+          "valueMin": 2.4,
+          "valueMax": 2.4,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "titrationPhases": [
+        {
+          "step": 1,
+          "periodLabel": "Semaines 1-44",
+          "periodUnit": "semaine",
+          "periodStart": 1,
+          "periodEnd": 44,
+          "openEnded": false,
+          "durationLabel": "1 sem.",
+          "durationWeeks": 1,
+          "valueText": "0.25 mg",
+          "valueMin": 0.25,
+          "valueMax": 0.25,
+          "unit": "mg"
+        },
+        {
+          "step": 2,
+          "periodLabel": "Semaines 5-84",
+          "periodUnit": "semaine",
+          "periodStart": 5,
+          "periodEnd": 84,
+          "openEnded": false,
+          "durationLabel": "2 sem.",
+          "durationWeeks": 2,
+          "valueText": "0.5 mg",
+          "valueMin": 0.5,
+          "valueMax": 0.5,
+          "unit": "mg"
+        },
+        {
+          "step": 3,
+          "periodLabel": "Semaines 9-124",
+          "periodUnit": "semaine",
+          "periodStart": 9,
+          "periodEnd": 124,
+          "openEnded": false,
+          "durationLabel": "3 sem.",
+          "durationWeeks": 3,
+          "valueText": "1 mg",
+          "valueMin": 1,
+          "valueMax": 1,
+          "unit": "mg"
+        },
+        {
+          "step": 4,
+          "periodLabel": "Semaines 13-164",
+          "periodUnit": "semaine",
+          "periodStart": 13,
+          "periodEnd": 164,
+          "openEnded": false,
+          "durationLabel": "4 sem.",
+          "durationWeeks": 4,
+          "valueText": "1.7 mg",
+          "valueMin": 1.7,
+          "valueMax": 1.7,
+          "unit": "mg"
+        },
+        {
+          "step": 5,
+          "periodLabel": "Semaines 17+4",
+          "periodUnit": "semaine",
+          "openEnded": true,
+          "durationLabel": "5 sem.",
+          "durationWeeks": 5,
+          "valueText": "2.4 mg",
+          "valueMin": 2.4,
+          "valueMax": 2.4,
+          "unit": "mg"
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "1 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "10 mg/ml",
+        "resultValue": 10,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 1 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/semaglutide/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "tirzepatide",
+    "targetSlug": "tirzepatide",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/tirzepatide/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "2.5 mg",
+          "valueMin": 2.5,
+          "valueMax": 2.5,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "5–10 mg",
+          "valueMin": 5,
+          "valueMax": 10,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "10 mg",
+          "valueMin": 10,
+          "valueMax": 10,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "titrationPhases": [
+        {
+          "step": 1,
+          "periodLabel": "Semaines 1-44",
+          "periodUnit": "semaine",
+          "periodStart": 1,
+          "periodEnd": 44,
+          "openEnded": false,
+          "durationLabel": "1 sem.",
+          "durationWeeks": 1,
+          "valueText": "2.5 mg",
+          "valueMin": 2.5,
+          "valueMax": 2.5,
+          "unit": "mg"
+        },
+        {
+          "step": 2,
+          "periodLabel": "Semaines 5-84",
+          "periodUnit": "semaine",
+          "periodStart": 5,
+          "periodEnd": 84,
+          "openEnded": false,
+          "durationLabel": "2 sem.",
+          "durationWeeks": 2,
+          "valueText": "5 mg",
+          "valueMin": 5,
+          "valueMax": 5,
+          "unit": "mg"
+        },
+        {
+          "step": 3,
+          "periodLabel": "Semaines 9-124",
+          "periodUnit": "semaine",
+          "periodStart": 9,
+          "periodEnd": 124,
+          "openEnded": false,
+          "durationLabel": "3 sem.",
+          "durationWeeks": 3,
+          "valueText": "7.5 mg",
+          "valueMin": 7.5,
+          "valueMax": 7.5,
+          "unit": "mg"
+        },
+        {
+          "step": 4,
+          "periodLabel": "Semaines 13-164",
+          "periodUnit": "semaine",
+          "periodStart": 13,
+          "periodEnd": 164,
+          "openEnded": false,
+          "durationLabel": "4 sem.",
+          "durationWeeks": 4,
+          "valueText": "10 mg",
+          "valueMin": 10,
+          "valueMax": 10,
+          "unit": "mg"
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "1 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "10 mg/ml",
+        "resultValue": 10,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 1 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/tirzepatide/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "cagrilintide",
+    "targetSlug": "cagrilintide",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/cagrilintide/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "0.3 mg",
+          "valueMin": 0.3,
+          "valueMax": 0.3,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "0.6–1.2 mg",
+          "valueMin": 0.6,
+          "valueMax": 1.2,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "2.4 mg",
+          "valueMin": 2.4,
+          "valueMax": 2.4,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "titrationPhases": [
+        {
+          "step": 1,
+          "periodLabel": "Semaines 1-44",
+          "periodUnit": "semaine",
+          "periodStart": 1,
+          "periodEnd": 44,
+          "openEnded": false,
+          "durationLabel": "1 sem.",
+          "durationWeeks": 1,
+          "valueText": "0.3 mg",
+          "valueMin": 0.3,
+          "valueMax": 0.3,
+          "unit": "mg"
+        },
+        {
+          "step": 2,
+          "periodLabel": "Semaines 5-84",
+          "periodUnit": "semaine",
+          "periodStart": 5,
+          "periodEnd": 84,
+          "openEnded": false,
+          "durationLabel": "2 sem.",
+          "durationWeeks": 2,
+          "valueText": "0.6 mg",
+          "valueMin": 0.6,
+          "valueMax": 0.6,
+          "unit": "mg"
+        },
+        {
+          "step": 3,
+          "periodLabel": "Semaines 9-124",
+          "periodUnit": "semaine",
+          "periodStart": 9,
+          "periodEnd": 124,
+          "openEnded": false,
+          "durationLabel": "3 sem.",
+          "durationWeeks": 3,
+          "valueText": "1.2 mg",
+          "valueMin": 1.2,
+          "valueMax": 1.2,
+          "unit": "mg"
+        },
+        {
+          "step": 4,
+          "periodLabel": "Semaines 13+4",
+          "periodUnit": "semaine",
+          "openEnded": true,
+          "durationLabel": "4 sem.",
+          "durationWeeks": 4,
+          "valueText": "2.4 mg",
+          "valueMin": 2.4,
+          "valueMax": 2.4,
+          "unit": "mg"
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/cagrilintide/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "bpc-157",
+    "targetSlug": "bpc-157",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/bpc-157/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "200 mcg",
+          "valueMin": 200,
+          "valueMax": 200,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "250–500 mcg",
+          "valueMin": 250,
+          "valueMax": 500,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "500 mcg",
+          "valueMin": 500,
+          "valueMax": 500,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2.5 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "4 mg/ml",
+        "resultValue": 4,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2.5 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/bpc-157/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "tb-500",
+    "targetSlug": "tb-500",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/tb-500/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "2 mg",
+          "valueMin": 2,
+          "valueMax": 2,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "2–2.5 mg",
+          "valueMin": 2,
+          "valueMax": 2.5,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "2.5 mg",
+          "valueMin": 2.5,
+          "valueMax": 2.5,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2.5 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "4 mg/ml",
+        "resultValue": 4,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2.5 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/tb-500/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "bpc157-tb500",
+    "targetSlug": "bpc157-tb500",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/bpc157-tb500/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "0.5 mg",
+          "valueMin": 0.5,
+          "valueMax": 0.5,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "0.5–1 mg",
+          "valueMin": 0.5,
+          "valueMax": 1,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "1.5 mg",
+          "valueMin": 1.5,
+          "valueMax": 1.5,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "20 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "10 mg/ml",
+        "resultValue": 10,
+        "resultUnit": "mg/ml",
+        "originalText": "20 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/bpc157-tb500/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "cjc-1295",
+    "targetSlug": "cjc-1295",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/cjc-1295/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "100 mcg",
+          "valueMin": 100,
+          "valueMax": 100,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "100–200 mcg",
+          "valueMin": 100,
+          "valueMax": 200,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "200 mcg",
+          "valueMin": 200,
+          "valueMax": 200,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "1 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "10 mg/ml",
+        "resultValue": 10,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 1 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/cjc-1295/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "ipamorelin",
+    "targetSlug": "ipamorelin",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/ipamorelin/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "100 mcg",
+          "valueMin": 100,
+          "valueMax": 100,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "100–300 mcg",
+          "valueMin": 100,
+          "valueMax": 300,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "300 mcg",
+          "valueMin": 300,
+          "valueMax": 300,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/ipamorelin/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "cjc1295-ipamorelin",
+    "targetSlug": "cjc1295-ipamorelin",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/cjc1295-ipamorelin/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "200 mcg",
+          "valueMin": 200,
+          "valueMax": 200,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "200–400 mcg",
+          "valueMin": 200,
+          "valueMax": 400,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "600 mcg",
+          "valueMin": 600,
+          "valueMax": 600,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "20 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "3 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "6.6667 mg/ml",
+        "resultValue": 6.6667,
+        "resultUnit": "mg/ml",
+        "originalText": "20 mg + 3 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/cjc1295-ipamorelin/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "tesamorelin",
+    "targetSlug": "tesamorelin",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/tesamorelin/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "1 mg",
+          "valueMin": 1,
+          "valueMax": 1,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "1–2 mg",
+          "valueMin": 1,
+          "valueMax": 2,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "2 mg",
+          "valueMin": 2,
+          "valueMax": 2,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/tesamorelin/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "epitalon",
+    "targetSlug": "epitalon",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/epitalon/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "3 mg",
+          "valueMin": 3,
+          "valueMax": 3,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "5–10 mg",
+          "valueMin": 5,
+          "valueMax": 10,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "10 mg",
+          "valueMin": 10,
+          "valueMax": 10,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/epitalon/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "ghk-cu",
+    "targetSlug": "ghk-cu",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/ghk-cu/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "1 mg",
+          "valueMin": 1,
+          "valueMax": 1,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "2 mg",
+          "valueMin": 2,
+          "valueMax": 2,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "2 mg",
+          "valueMin": 2,
+          "valueMax": 2,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "50 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "3 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "16.6667 mg/ml",
+        "resultValue": 16.6667,
+        "resultUnit": "mg/ml",
+        "originalText": "50 mg + 3 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/ghk-cu/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "mots-c",
+    "targetSlug": "mots-c",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/mots-c/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "2.5 mg",
+          "valueMin": 2.5,
+          "valueMax": 2.5,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "5 mg",
+          "valueMin": 5,
+          "valueMax": 5,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "10 mg",
+          "valueMin": 10,
+          "valueMax": 10,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/mots-c/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "nad-plus",
+    "targetSlug": "nad-plus",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/nad-plus/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "25 mg",
+          "valueMin": 25,
+          "valueMax": 25,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "50–100 mg",
+          "valueMin": 50,
+          "valueMax": 100,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "150 mg",
+          "valueMin": 150,
+          "valueMax": 150,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "titrationPhases": [
+        {
+          "step": 1,
+          "periodLabel": "Semaine 1-2",
+          "periodUnit": "semaine",
+          "periodStart": 1,
+          "periodEnd": 2,
+          "openEnded": false,
+          "durationLabel": "1 sem.",
+          "durationWeeks": 1,
+          "valueText": "25 mg",
+          "valueMin": 25,
+          "valueMax": 25,
+          "unit": "mg"
+        },
+        {
+          "step": 2,
+          "periodLabel": "Semaine 3-4",
+          "periodUnit": "semaine",
+          "periodStart": 3,
+          "periodEnd": 4,
+          "openEnded": false,
+          "durationLabel": "2 sem.",
+          "durationWeeks": 2,
+          "valueText": "100 mg",
+          "valueMin": 100,
+          "valueMax": 100,
+          "unit": "mg"
+        },
+        {
+          "step": 3,
+          "periodLabel": "Semaine 5+",
+          "periodUnit": "semaine",
+          "openEnded": true,
+          "durationLabel": "3 sem.",
+          "durationWeeks": 3,
+          "valueText": "150 mg",
+          "valueMin": 150,
+          "valueMax": 150,
+          "unit": "mg"
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "500 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "5 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "100 mg/ml",
+        "resultValue": 100,
+        "resultUnit": "mg/ml",
+        "originalText": "500 mg + 5 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/nad-plus/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "pt-141",
+    "targetSlug": "pt-141",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/pt-141/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "0.5 mg",
+          "valueMin": 0.5,
+          "valueMax": 0.5,
+          "unit": "mg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "1–1.5 mg",
+          "valueMin": 1,
+          "valueMax": 1.5,
+          "unit": "mg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "1.5 mg",
+          "valueMin": 1.5,
+          "valueMax": 1.5,
+          "unit": "mg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/pt-141/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "selank",
+    "targetSlug": "selank",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/selank/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "300 mcg",
+          "valueMin": 300,
+          "valueMax": 300,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "300–600 mcg",
+          "valueMin": 300,
+          "valueMax": 600,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "600 mcg",
+          "valueMin": 600,
+          "valueMax": 600,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/selank/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "semax",
+    "targetSlug": "semax",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/semax/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "300 mcg",
+          "valueMin": 300,
+          "valueMax": 300,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "300–600 mcg",
+          "valueMin": 300,
+          "valueMax": 600,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "800 mcg",
+          "valueMin": 800,
+          "valueMax": 800,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/semax/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "dsip",
+    "targetSlug": "dsip",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/dsip/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "100 mcg",
+          "valueMin": 100,
+          "valueMax": 100,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "200–300 mcg",
+          "valueMin": 200,
+          "valueMax": 300,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "500 mcg",
+          "valueMin": 500,
+          "valueMax": 500,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/dsip/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "mt-2",
+    "targetSlug": "mt-2",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/mt-2/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "250 mcg",
+          "valueMin": 250,
+          "valueMax": 250,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "500–1000 mcg",
+          "valueMin": 500,
+          "valueMax": 1000,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "1000 mcg",
+          "valueMin": 1000,
+          "valueMax": 1000,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/mt-2/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "mt-1",
+    "targetSlug": "mt-1",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/mt-1/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "250 mcg",
+          "valueMin": 250,
+          "valueMax": 250,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "250–500 mcg",
+          "valueMin": 250,
+          "valueMax": 500,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "1000 mcg",
+          "valueMin": 1000,
+          "valueMax": 1000,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/mt-1/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "igf-1lr3-0-1mg",
+    "targetSlug": "igf-1lr3-0-1mg",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/igf-1lr3-0-1mg/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "20 mcg",
+          "valueMin": 20,
+          "valueMax": 20,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "40 mcg",
+          "valueMin": 40,
+          "valueMax": 40,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "80 mcg",
+          "valueMin": 80,
+          "valueMax": 80,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "0.1 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "1 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "0.1 mg/ml",
+        "resultValue": 0.1,
+        "resultUnit": "mg/ml",
+        "originalText": "0.1 mg + 1 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/igf-1lr3-0-1mg/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  },
+  {
+    "sourceSlug": "kpv",
+    "targetSlug": "kpv",
+    "sourceUrl": "https://ral-pep.com/fr/peptides/kpv/",
+    "dosage": {
+      "referenceDosages": [
+        {
+          "level": "Débutant",
+          "description": "DébutantÉvaluer la tolérance",
+          "valueText": "250 mcg",
+          "valueMin": 250,
+          "valueMax": 250,
+          "unit": "mcg",
+          "position": 1
+        },
+        {
+          "level": "Usage courant",
+          "description": "Usage courantDosage le plus utilisé",
+          "valueText": "250–500 mcg",
+          "valueMin": 250,
+          "valueMax": 500,
+          "unit": "mcg",
+          "position": 2
+        },
+        {
+          "level": "Élevé",
+          "description": "ÉlevéUtilisateurs expérimentés",
+          "valueText": "500 mcg",
+          "valueMin": 500,
+          "valueMax": 500,
+          "unit": "mcg",
+          "position": 3
+        }
+      ],
+      "reconstitution": {
+        "vialAmountText": "10 mg",
+        "vialLabel": "fiole",
+        "diluentAmountText": "2 ml",
+        "diluentLabel": "eau BAC",
+        "resultText": "5 mg/ml",
+        "resultValue": 5,
+        "resultUnit": "mg/ml",
+        "originalText": "10 mg + 2 ml"
+      },
+      "sourceUrl": "https://ral-pep.com/fr/peptides/kpv/",
+      "disclaimer": "Produit destiné à la recherche uniquement (research use only). Les valeurs affichées sont indicatives et à visée informative. Ne constitue pas un conseil médical."
+    }
+  }
+]
