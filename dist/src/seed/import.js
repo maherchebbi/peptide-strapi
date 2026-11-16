@@ -14,15 +14,37 @@ const FLAT_COLLECTIONS = {
     protocols: 'api::protocol.protocol',
 };
 async function importSeed(strapi) {
-    if (process.env.SEED_DISABLED === 'true')
+    var _a;
+    if (process.env.SEED_DISABLED === 'true') {
+        strapi.log.info('[seed] Désactivé (SEED_DISABLED=true).');
         return;
+    }
     const seedDir = path_1.default.join(strapi.dirs.app.root, 'seed');
     const dataPath = path_1.default.join(seedDir, 'data.json');
-    if (!fs_1.default.existsSync(dataPath))
+    if (!fs_1.default.existsSync(dataPath)) {
+        strapi.log.warn(`[seed] Fichier introuvable : ${dataPath} — import ignoré.`);
         return;
+    }
+    strapi.log.info(`[seed] Seed trouvé : ${dataPath}`);
     const data = JSON.parse(fs_1.default.readFileSync(dataPath, 'utf8'));
-    await importCatalog(strapi, data, seedDir);
-    await importFlatCollections(strapi, data);
+    try {
+        if (process.env.SEED_RESET_CATALOG === 'true')
+            await resetCatalog(strapi);
+        await importCatalog(strapi, data, seedDir);
+        await importFlatCollections(strapi, data);
+    }
+    catch (err) {
+        strapi.log.error(`[seed] Échec de l'import : ${(_a = err.stack) !== null && _a !== void 0 ? _a : err}`);
+    }
+}
+async function resetCatalog(strapi) {
+    strapi.log.warn('[seed] SEED_RESET_CATALOG=true : suppression des produits et catégories existants…');
+    for (const uid of ['api::product.product', 'api::category.category']) {
+        const docs = await strapi.documents(uid).findMany({ fields: ['documentId'], limit: -1 });
+        for (const doc of docs)
+            await strapi.documents(uid).delete({ documentId: doc.documentId });
+        strapi.log.warn(`[seed] ${docs.length} entrée(s) supprimée(s) dans ${uid}.`);
+    }
 }
 async function importCatalog(strapi, data, seedDir) {
     var _a, _b;
@@ -30,8 +52,11 @@ async function importCatalog(strapi, data, seedDir) {
         strapi.documents('api::category.category').count({}),
         strapi.documents('api::product.product').count({}),
     ]);
-    if (categoryCount > 0 || productCount > 0)
+    if (categoryCount > 0 || productCount > 0) {
+        strapi.log.info(`[seed] Catalogue ignoré : la base contient déjà ${categoryCount} catégorie(s) et ${productCount} produit(s). ` +
+            'Pour le remplacer par le seed : SEED_RESET_CATALOG=true (une seule fois).');
         return;
+    }
     strapi.log.info(`[seed] Base vide : import de ${data.files.length} images, ${data.categories.length} catégories, ${data.products.length} produits…`);
     // 1) Images -> médiathèque (formats/miniatures régénérés par le plugin upload)
     const mediaIdByKey = {};
@@ -107,8 +132,11 @@ async function importFlatCollections(strapi, data) {
         const rows = data[key];
         if (!(rows === null || rows === void 0 ? void 0 : rows.length))
             continue;
-        if ((await strapi.documents(uid).count({})) > 0)
+        const existing = await strapi.documents(uid).count({});
+        if (existing > 0) {
+            strapi.log.info(`[seed] ${uid} ignoré : ${existing} entrée(s) déjà présente(s).`);
             continue;
+        }
         for (const { createdAt, ...row } of rows) {
             const created = await strapi.documents(uid).create({ data: row });
             // conserve la date d'origine (commandes, messages…)
