@@ -1,9 +1,6 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const seed_shop_json_1 = __importDefault(require("./data/seed-shop.json"));
+const import_1 = require("./seed/import");
 exports.default = {
     /**
      * An asynchronous register function that runs before
@@ -21,7 +18,7 @@ exports.default = {
      */
     async bootstrap({ strapi }) {
         await ensurePublicCatalogReadAccess(strapi);
-        await seedShopIfEmpty(strapi);
+        await (0, import_1.importSeed)(strapi);
     },
 };
 /**
@@ -54,29 +51,4 @@ async function ensurePublicCatalogReadAccess(strapi) {
             strapi.log.info(`[bootstrap] Permission publique activée : ${action}`);
         }
     }
-}
-/**
- * Catalogue de démonstration (catégories + produits) : importé une seule
- * fois, uniquement si la base ne contient encore aucune catégorie. Permet à
- * quiconque clone le projet d'avoir un catalogue fonctionnel dès le premier
- * `strapi develop`, sans script manuel à lancer. N'écrase jamais rien si des
- * catégories existent déjà (idempotent, ne tourne qu'une fois par base vide).
- */
-async function seedShopIfEmpty(strapi) {
-    const categoryCount = await strapi.documents('api::category.category').count({});
-    if (categoryCount > 0)
-        return;
-    strapi.log.info(`[seed] Catalogue vide : import de ${seed_shop_json_1.default.categories.length} catégories et ${seed_shop_json_1.default.products.length} produits…`);
-    const categoryIdBySlug = {};
-    for (const category of seed_shop_json_1.default.categories) {
-        const created = await strapi.documents('api::category.category').create({ data: category });
-        categoryIdBySlug[category.slug] = created.documentId;
-    }
-    for (const { category, ...data } of seed_shop_json_1.default.products) {
-        const categoryId = category ? categoryIdBySlug[category] : undefined;
-        await strapi.documents('api::product.product').create({
-            data: { ...data, ...(categoryId ? { category: categoryId } : {}) },
-        });
-    }
-    strapi.log.info('[seed] Catalogue importé.');
 }

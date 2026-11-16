@@ -1,5 +1,5 @@
 import type { Core } from '@strapi/strapi';
-import seedData from './data/seed-shop.json';
+import { importSeed } from './seed/import';
 
 export default {
   /**
@@ -19,7 +19,7 @@ export default {
    */
   async bootstrap({ strapi }: { strapi: Core.Strapi }) {
     await ensurePublicCatalogReadAccess(strapi);
-    await seedShopIfEmpty(strapi);
+    await importSeed(strapi);
   },
 };
 
@@ -54,33 +54,4 @@ async function ensurePublicCatalogReadAccess(strapi: Core.Strapi) {
       strapi.log.info(`[bootstrap] Permission publique activée : ${action}`);
     }
   }
-}
-
-/**
- * Catalogue de démonstration (catégories + produits) : importé une seule
- * fois, uniquement si la base ne contient encore aucune catégorie. Permet à
- * quiconque clone le projet d'avoir un catalogue fonctionnel dès le premier
- * `strapi develop`, sans script manuel à lancer. N'écrase jamais rien si des
- * catégories existent déjà (idempotent, ne tourne qu'une fois par base vide).
- */
-async function seedShopIfEmpty(strapi: Core.Strapi) {
-  const categoryCount = await strapi.documents('api::category.category').count({});
-  if (categoryCount > 0) return;
-
-  strapi.log.info(`[seed] Catalogue vide : import de ${seedData.categories.length} catégories et ${seedData.products.length} produits…`);
-
-  const categoryIdBySlug: Record<string, string> = {};
-  for (const category of seedData.categories) {
-    const created = await strapi.documents('api::category.category').create({ data: category });
-    categoryIdBySlug[category.slug] = created.documentId;
-  }
-
-  for (const { category, ...data } of seedData.products) {
-    const categoryId = category ? categoryIdBySlug[category] : undefined;
-    await strapi.documents('api::product.product').create({
-      data: { ...data, ...(categoryId ? { category: categoryId } : {}) },
-    });
-  }
-
-  strapi.log.info('[seed] Catalogue importé.');
 }
