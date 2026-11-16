@@ -11,6 +11,11 @@ import type { Core } from '@strapi/strapi';
  *  - commandes / messages / newsletter / protocoles : seulement si la
  *    collection correspondante est vide.
  * Rien n'est jamais écrasé. Désactivable avec SEED_DISABLED=true.
+ *
+ * SEED_RESET_CATALOG=true : supprime les catégories et produits existants
+ * (ex. ancien catalogue de démo) puis réimporte le catalogue du seed.
+ * À retirer après le déploiement, sinon le catalogue est réinitialisé à
+ * chaque redémarrage.
  */
 
 type SeedFile = {
@@ -40,16 +45,37 @@ const FLAT_COLLECTIONS = {
 } as const;
 
 export async function importSeed(strapi: Core.Strapi) {
-  if (process.env.SEED_DISABLED === 'true') return;
+  if (process.env.SEED_DISABLED === 'true') {
+    strapi.log.info('[seed] Désactivé (SEED_DISABLED=true).');
+    return;
+  }
 
   const seedDir = path.join(strapi.dirs.app.root, 'seed');
   const dataPath = path.join(seedDir, 'data.json');
-  if (!fs.existsSync(dataPath)) return;
+  if (!fs.existsSync(dataPath)) {
+    strapi.log.warn(`[seed] Fichier introuvable : ${dataPath} — import ignoré.`);
+    return;
+  }
+  strapi.log.info(`[seed] Seed trouvé : ${dataPath}`);
 
   const data: SeedData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
-  await importCatalog(strapi, data, seedDir);
-  await importFlatCollections(strapi, data);
+  try {
+    if (process.env.SEED_RESET_CATALOG === 'true') await resetCatalog(strapi);
+    await importCatalog(strapi, data, seedDir);
+    await importFlatCollections(strapi, data);
+  } catch (err) {
+    strapi.log.error(`[seed] Échec de l'import : ${(err as Error).stack ?? err}`);
+  }
+}
+
+async function resetCatalog(strapi: Core.Strapi) {
+  strapi.log.warn('[seed] SEED_RESET_CATALOG=true : suppression des produits et catégories existants…');
+  for (const uid of ['api::product.product', 'api::category.category'] as const) {
+    const docs = await strapi.documents(uid).findMany({ fields: ['documentId'] as any, limit: -1 });
+    for (const doc of docs) await strapi.documents(uid).delete({ documentId: doc.documentId });
+    strapi.log.warn(`[seed] ${docs.length} entrée(s) supprimée(s) dans ${uid}.`);
+  }
 }
 
 async function importCatalog(strapi: Core.Strapi, data: SeedData, seedDir: string) {
@@ -57,7 +83,13 @@ async function importCatalog(strapi: Core.Strapi, data: SeedData, seedDir: strin
     strapi.documents('api::category.category').count({}),
     strapi.documents('api::product.product').count({}),
   ]);
-  if (categoryCount > 0 || productCount > 0) return;
+  if (categoryCount > 0 || productCount > 0) {
+    strapi.log.info(
+      `[seed] Catalogue ignoré : la base contient déjà ${categoryCount} catégorie(s) et ${productCount} produit(s). ` +
+        'Pour le remplacer par le seed : SEED_RESET_CATALOG=true (une seule fois).'
+    );
+    return;
+  }
 
   strapi.log.info(
     `[seed] Base vide : import de ${data.files.length} images, ${data.categories.length} catégories, ${data.products.length} produits…`
@@ -137,7 +169,11 @@ async function importFlatCollections(strapi: Core.Strapi, data: SeedData) {
   for (const [key, uid] of Object.entries(FLAT_COLLECTIONS)) {
     const rows = data[key as keyof typeof FLAT_COLLECTIONS];
     if (!rows?.length) continue;
-    if ((await strapi.documents(uid).count({})) > 0) continue;
+    const existing = await strapi.documents(uid).count({});
+    if (existing > 0) {
+      strapi.log.info(`[seed] ${uid} ignoré : ${existing} entrée(s) déjà présente(s).`);
+      continue;
+    }
 
     for (const { createdAt, ...row } of rows) {
       const created = await strapi.documents(uid).create({ data: row as any });
