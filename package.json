@@ -22,6 +22,7 @@
     "@strapi/strapi": "5.58.0",
     "better-sqlite3": "12.8.0",
     "cheerio": "^1.2.0",
+    "mysql2": "^3.24.6",
     "pg": "^8.23.1",
     "playwright": "^1.65.1",
     "react": "^18.0.0",
